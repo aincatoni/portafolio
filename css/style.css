@@ -3,13 +3,93 @@
 
 header {
 
-	padding-left:100px;
+float: left;
+width: 100;
+
 }
 
+
+header > h1 {
+
+	float: left;
+	width: 40%;
+}
 /* nav bar */
-ul li { 
+nav {
 
 	float: left; 
-	margin: 0 0 0 50px;
+	margin: 0 auto;
+	width: 80%;
 }
 
+ul li {
+
+	margin-left: 20px;
+	float: left;
+}
+
+
+/* body */
+
+body {
+
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+
+/* imagenes */
+img {
+
+	width: 100%;
+}
+
+#foto-perfil {
+
+max-width: 40%;
+float:left;
+
+}
+
+/* contenido */
+
+.wrapper {
+float: left;
+width: 100;
+padding: 0 10px;
+background-color:#eeeeee;
+
+
+}
+
+
+.container {
+
+	width: 100%;
+	background-color:#cccccc;
+	float: left;
+	margin: 50px 0;
+	padding: 5px 20px;
+}
+
+table, th, td {
+
+	border: 1px solid black;
+}
+
+/* footer */
+
+footer {
+
+	width: 80%
+	margin: 0 auto;
+	float: left;
+}
+
+
+/* clear */
+
+.clear {
+
+	clear: both;
+}
